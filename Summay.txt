@@ -1,0 +1,23 @@
+Waiting for backend health check...
+Backend is ready.
+Verifying system settings storage...
+System settings storage is writable.
+Verifying administrator credentials...
+Administrator credentials verified.
+
+QuantDinger is ready.
+
+Web UI:      http://localhost:8888
+Mobile H5:   http://localhost:8889
+API:         http://127.0.0.1:5000
+Directory:   /root/quantdinger
+Username:    josh
+Password:    the password you entered during installation
+
+Useful commands:
+  cd /root/quantdinger
+  docker compose -f docker-compose.yml ps
+  docker compose -f docker-compose.yml logs -f backend
+  Rerun this installer to update images and append newly added .env keys safely.
+
+Trading involves substantial risk. Start with paper trading and small test accounts.
